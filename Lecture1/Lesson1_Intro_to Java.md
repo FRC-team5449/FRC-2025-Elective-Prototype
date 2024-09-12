@@ -38,7 +38,7 @@ public class HelloWorld {
 
 In real life, we all know the set of natural number is infinite, but it's not in computer since we don't have unlimited memory to use.
 
-![Photo4](/Lecture1/Lecture1/images/Pasted_image_20240911153130.png)
+![Photo4](/Lecture1/images/Pasted_image_20240911153130.png)
 ![Photo5](/Lecture1/images/Pasted_image_20240911153218.png)
 ![Photo6](/Lecture1/images/Pasted_image_20240911153708.png)
 ![Photo7](/Lecture1/images/Pasted_image_20240911153759.png)
