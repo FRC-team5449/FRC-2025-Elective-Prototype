@@ -18,9 +18,9 @@ Function/Method *main* is the entrance of the program, now you should type all t
 [Integer: 整数](https://www.cs.cmu.edu/~15122/handouts/slides/review/02-ints.pdf)
 In our life, we use decimal numbers, but in computers, we use binary numbers
 
-![Photo1](/images/Pasted image 20240911152120.png)
-![Photo2](/images/Pasted image 20240911152212.png)
-![Photo3](/images/Pasted image 20240911152858.png)
+![Photo1](/images/Pasted_image_20240911152120.png)
+![Photo2](/images/Pasted_image_20240911152212.png)
+![Photo3](/images/Pasted_image_20240911152858.png)
 
 
 All integer numbers in Java are represented as **int**.  **Have a try!**
@@ -37,12 +37,12 @@ public class HelloWorld {
 
 In real life, we all know the set of natural number is infinite, but it's not in computer since we don't have unlimited memory to use.
 
-![Photo4](/images/Pasted image 20240911153130.png)
-![Photo5](/images/Pasted image 20240911153218.png)
-![Photo6](/images/Pasted image 20240911153708.png)
-![Photo7](/images/Pasted image 20240911153759.png)
-![Photo8](/images/Pasted image 20240911153820.png)
-![Photo9](/images/Pasted image 20240911153839.png)
+![Photo4](/images/Pasted_image_20240911153130.png)
+![Photo5](/images/Pasted_image_20240911153218.png)
+![Photo6](/images/Pasted_image_20240911153708.png)
+![Photo7](/images/Pasted_image_20240911153759.png)
+![Photo8](/images/Pasted_image_20240911153820.png)
+![Photo9](/images/Pasted_image_20240911153839.png)
 
 Let's play with this overflow !
 
@@ -102,7 +102,7 @@ public class HelloWorld {
 }
 ```
 
-![Photo10](/images/Pasted image 20240911155758.png)
+![Photo10](/images/Pasted_image_20240911155758.png)
 
 de Morgan's Law !!
 
