@@ -438,7 +438,7 @@ Traditionally, we will add private in front of attributes and public in front of
 
 There are actually four usages of *static* in Java, we will introduce the first two to you.
 
-If the variable or method is modified by *static*, it will only depends on class but not the class. How can we interpret that?
+If the variable or method is modified by *static*, it will only depend on class but not the class. How can we interpret that?
 
 ```Java
 public class Car {
@@ -477,3 +477,21 @@ public class MathUtil {
 }
 ```
 
+Also, notice that the static function could only use the static variable in the class, and static variable could be used in both static and non-static functions.
+
+```Java
+public class StaticTest {
+  private static int count1 = 0;
+  private int count2 = 0;
+
+  public static void plusCount() {
+    count1++;
+    //count2++   If you uncomment this, what will happen?
+  }
+
+  public void plusCount() {
+    count1++;
+    count2++;
+  }
+}
+```
