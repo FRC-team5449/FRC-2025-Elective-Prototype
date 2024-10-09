@@ -158,7 +158,68 @@ public class Car {
   }
 }
 ```
-Since we know the the first letter of a class name must be capitalized, *String* is also a class, and all of these *String*s are actually objects.
+
+**Attention!** After you know the format to instantiate an object, you might wonder:
+
+What if there is no constructor in my class?
+
+If without a constructor, can we still build an object. **The Answer is YES!**
+
+```Java
+public class Car {
+  int price;
+  String brand;
+  String color;
+  double power;
+
+  void blowWhistle(String whistleSound) {
+    System.out.println(whistleSound);
+  }
+
+  int getPrice() {
+    return price;
+  }
+
+  public static void main(String[] args) {
+    Car toyota = new Car();
+
+    System.out.println(toyota.getPrice());
+    System.out.println(toyota.power);
+    toyota.blowWhistle("Di Di Di~~");
+  }
+}
+```
+The result is so surprising! We can run this program successfully, and the result is
+
+```
+0
+0.0
+Di Di Di~~
+```
+Actually, when there is no constructor in a Java class, JVM(Java Virtual Machine) will build a default constructor that would set all attributes as default values and accept no parameter. 
+
+Hence, the default constructor is equivalent as:
+
+```Java
+Car() {
+  price = 0;
+  brand = null; //I'll explain "null" later
+  color = null;
+  power = 0.0;
+}
+```
+However, if you write a constructor on your own, JVM will **no longer** build a default constructor for you!
+
+Try this code now!
+
+
+
+
+
+
+## More Info about String in Java
+
+Since we know the the first letter of a class name must be capitalized, *String* is also a class, and all of the *String*s you wrote before are actually objects (This is the reason why I wrote "first" above).
 
 To prove this, let's try to compile the codes follwing.
 
