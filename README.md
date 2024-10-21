@@ -46,3 +46,8 @@ Final Project 并不是课下作业(虽然你可以课下完成)，而是在Lab�
 6.[Limelight文档](https://docs.limelightvision.io/docs/docs-limelight/getting-started/summary) 物体识别及Apriltag 必读资料
 7.[Photon Vision文档](https://docs.photonvision.org/en/latest/) Limelight平替
 8.[Advantage Kit文档](https://github.com/Mechanical-Advantage/AdvantageKit?tab=readme-ov-file) Replay及Simulator，FRC革命性API及软件，必读资料
+
+## Table of Contents
+1. [Java Basics](Lecture1/Lesson1_Intro_to_Java.md)
+2. [Classes and Objects](Lecture2/Lesson2_Class_And_Objects.md)
+3. [Inheritance and Interface](Lecture3/Lesson3_Inheritance_And_Interface.md)
