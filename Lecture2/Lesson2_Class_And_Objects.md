@@ -2,7 +2,7 @@
 
 **Reminder: Please review the last lesson first!**
 
-![meme](/Lecture2/images/meme.png)
+![meme](images/meme.png)
 
 Now! Get ready to learn the most important class!
 
@@ -258,21 +258,21 @@ Let's explain the sentences above one by one!
   
   Basically, in the beginner level, we can interpret the memory of computers as two types of memory. The first is **local memory**, and the second one is **allocated memory**. See the photo below. And more will be explained later.
   
-  ![blackSpace](/Lecture2/images/blank.png)
+  ![blackSpace](images/blank.png)
 
 + Reference variable can also store null value. By default, if no object is passed to a reference variable then it will store a null value.
   
   Before talking about the class, let's see how will memory be changed when we do something more fundamental. For example, if I **int p = 1**. There will be a variable called **p** appearing in the local memory with a value 1.
 
-  ![p=1](/Lecture2/images/p1.png)
+  ![p=1](images/p1.png)
 
   Then **int q = p**. q will also appear as p.
 
-  ![q=p](/Lecture2/images/p1q1.png)
+  ![q=p](images/p1q1.png)
 
   Finally, let's try **q = 0**. Apparently, the value of p will be different from that of q. However, *something will be different when we do operations on classes, which is one of the types of reference variable*.
 
-  ![q!=p](/Lecture2/images/p1q0.png)
+  ![q!=p](images/p1q0.png)
 
   Here, let's write a super simple class for us to comprehend the reference.
 
@@ -289,7 +289,7 @@ Let's explain the sentences above one by one!
 
   In the computer's memory, there will be a variable called p in the local memory, and it's pointing to a memory area allocated in the allocated memory with the type **TestObj**, where the attribute *num* is also stored in it.
 
-  ![testobj1](/Lecture2/images/TestObj1.png)
+  ![testobj1](images/TestObj1.png)
 
   You might wonder how this "point to" works, maybe we can print out p and see the result.
 
@@ -330,11 +330,11 @@ Let's explain the sentences above one by one!
 
   That's because when we do **TestObj q = p;** there will be a variable called q also pointing to the object that p is pointing to.
 
-  ![p==q](/Lecture2/images/p==q.png)
+  ![p==q](images/p==q.png)
 
   Then we change the num of q, but it is actually the num of object that q is pointing to, which is the same object that p is pointing to. Hence, the result is 0, 0.
 
-  ![pnum=qnum](/Lecture2/images/pnum=qnum.png)
+  ![pnum=qnum](images/pnum=qnum.png)
 
   Test more!
 
@@ -342,7 +342,7 @@ Let's explain the sentences above one by one!
   
   When we declare a object, such as **TestObj p** with out instantiating, then p is null. **null** means that the variable is pointing to nothing in the allocated memory.
 
-  ![nothing](/Lecture2/images/nothing.png)
+  ![nothing](images/nothing.png)
 
 + You can access object members using a reference variable using dot syntax.
 
