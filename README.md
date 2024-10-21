@@ -1,4 +1,11 @@
 # FRC Elective Programming Course Syllabus
+
+## Table of Contents
+1. [Java Basics](Lecture1/Lesson1_Intro_to_Java.md)
+2. [Classes and Objects](Lecture2/Lesson2_Class_And_Objects.md)
+3. [Inheritance and Interface](Lecture3/Lesson3_Inheritance_And_Interface.md)
+
+
 ## 1 课程描述
 
 FRC研修课程序组将会教授FRC程序以及电路的入门内容，在结束本课程后，学生应该掌握独自编写基本机器人程序、调试控制器参数、搜寻排除程序错误的能力。我们的课程将从由Java语言编写的简单程序出发，从语言基础到计算机视觉，覆盖绝大多数的FRC机器人相关知识。
@@ -47,7 +54,3 @@ Final Project 并不是课下作业(虽然你可以课下完成)，而是在Lab�
 7. [Photon Vision文档](https://docs.photonvision.org/en/latest/) Limelight平替
 8. [Advantage Kit文档](https://github.com/Mechanical-Advantage/AdvantageKit?tab=readme-ov-file) Replay及Simulator，FRC革命性API及软件，必读资料
 
-## Table of Contents
-1. [Java Basics](Lecture1/Lesson1_Intro_to_Java.md)
-2. [Classes and Objects](Lecture2/Lesson2_Class_And_Objects.md)
-3. [Inheritance and Interface](Lecture3/Lesson3_Inheritance_And_Interface.md)
