@@ -19,7 +19,7 @@ Thus, there is an old saying in computer science, "Class is the abstraction of o
 Let's turn back to the computer science. For example, if I want to represent a car in the program, what things should I do?
 First, let's define the class *Car*!
 
-```Java
+```java
 public class Car {
   //Reminder: Captitalize the name of your class!! 👆
 }
@@ -29,7 +29,7 @@ Besides, we all know for a car, it must have some related parameters, such as **
 
 Notice that we are representing *car*, but not any specific car in the world since we are designing a **class(abstraction)**. Then let's write these **attributes**, or the properties of an element, in our class.
 
-```Java
+```java
 public class Car {
   int price;
   String brand;
@@ -40,7 +40,7 @@ public class Car {
 
 It's not enough! For a car, we can drive it or blow the whistle, which are the actions of a car. How can we define the actions of a class. The answer is **function**, or **method**. Let's see how can we write a method in Java.
 
-```Java
+```java
 public class Car {
   int price;
   String brand;
@@ -74,7 +74,7 @@ public class Car {
 
 Now, we almost reach the destination, but there is a serious problem. The purpose of defining a class is to help us build/instantiate objects, but there isn't any place where we can assign values to the **attributes** we wrote in the class. Hence, we need a tool called **constructor** to help us instantiate objects.
 
-```Java
+```java
 public class Car {
   int price;
   String brand;
@@ -117,7 +117,7 @@ After you complete the constructor, you can now try to instantiate your "first" 
 
 Write main method in your class as the entrance of your program.
 
-```Java
+```java
 public class Car {
   int price;
   String brand;
@@ -165,7 +165,7 @@ What if there is no constructor in my class?
 
 If without a constructor, can we still build an object. **The Answer is YES!**
 
-```Java
+```java
 public class Car {
   int price;
   String brand;
@@ -200,7 +200,7 @@ Actually, when there is no constructor in a Java class, JVM(Java Virtual Machine
 
 Hence, the default constructor is equivalent as:
 
-```Java
+```java
 Car() {
   price = 0;
   brand = null; //I'll explain "null" later
@@ -223,7 +223,7 @@ Since we know the the first letter of a class name must be capitalized, *String*
 
 To prove this, let's try to compile the codes follwing.
 
-```Java
+```java
 public class Car {
   // ...
 
@@ -276,7 +276,7 @@ Let's explain the sentences above one by one!
 
   Here, let's write a super simple class for us to comprehend the reference.
 
-  ```Java
+  ```java
   public class TestObj {
     int num;
     TestObj(int a) {
@@ -293,7 +293,7 @@ Let's explain the sentences above one by one!
 
   You might wonder how this "point to" works, maybe we can print out p and see the result.
 
-  ```Java
+  ```java
   public class TestObj {
     int num;
     TestObj(int a) {
@@ -310,7 +310,7 @@ Let's explain the sentences above one by one!
 
   With these background information, let's try to do some operations similar as we've done on the **int** type, and see what will happen!
 
-  ```Java
+  ```java
   public class TestObj {
     int num;
     TestObj(int a) {
@@ -364,7 +364,7 @@ In Java, *this* is a very crucial keyword that you should always remind yourself
 
 **Situation 1:**
 + The name of parameters is same as that of attributes
-```Java
+```java
 public class Car {
   int price;
   //...
@@ -383,7 +383,7 @@ public class Car {
 
 **Situation 2**
 + Embed the existing constructor into a new one
-```Java
+```java
 public class Car {
   //...
   //Remind two constructors we wrote above
@@ -413,7 +413,7 @@ public class Car {
 + Pass the current object as a parameter
 
 Let's assume there is a car store that sales second-hand car. Hence, we must recive a *Car* object to calculate some parameters.
-```Java
+```java
 public class CarStore {
   Car car;
 
@@ -429,7 +429,7 @@ public class CarStore {
 
 Then, we might think it's more convenient to have the getPriceInStore() method in the car class. So we create the same method in the class *Car*. However, we don't know the exact process of calculation since it varies every day.
 
-```Java
+```java
 public class Car {
   //...
   double getPriceInStore() {
@@ -451,7 +451,7 @@ Are you still wondering the *public* infront of keyword class? Why should we add
 
 And this modifier could be added to both of function and attribute. Thus, the right class should be as follow:
 
-```Java
+```java
 public class Car {
   private int price;
   private String brand;
@@ -501,7 +501,7 @@ There are actually four usages of *static* in Java, we will introduce the first 
 
 If the variable or method is modified by *static*, it will only depend on class but not the class. How can we interpret that?
 
-```Java
+```java
 public class Car {
   public static int count = 0;
 
@@ -522,7 +522,7 @@ The result is **3**!! Why? That's becuase the variable count is depending on the
 
 In FRC programming, we often use static to modify some helper functions that could be used in most cases, such as Util class.
 
-```Java
+```java
 public class MathUtil {
   /**
   * Returns value clamped between low and high boundaries.
@@ -540,7 +540,7 @@ public class MathUtil {
 
 Also, notice that the static function could only use the static variable in the class, and static variable could be used in both static and non-static functions.
 
-```Java
+```java
 public class StaticTest {
   private static int count1 = 0;
   private int count2 = 0;

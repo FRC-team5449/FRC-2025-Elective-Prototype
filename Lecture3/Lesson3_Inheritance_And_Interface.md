@@ -21,7 +21,7 @@ For example, *Bicycle* is a class, and *MountainBicycle* is obviously a class th
 
 Here, we call *Bicycle* the superclass, and *MountainBicycle* the subclass!
 
-```Java
+```java
 public class Bicycle {
   //Why is there no "private" modifier? We will reveal the reason later.
   int price;
@@ -50,7 +50,7 @@ public class Bicycle {
 
 In Java, we use keyword **extends** to inherit a class.
 
-```Java
+```java
 public class MountainBicycle extends Bicycle{
   int seatHeight;
 
@@ -74,7 +74,7 @@ As you can see, when we instantiate a class that inherits another class. It will
 
 Hence, with the speculation, the correct format of the subclass should be like this:
 
-```Java
+```java
 public class Subclass extends Superclass {
   //Fields
 
@@ -91,7 +91,7 @@ public class Subclass extends Superclass {
 
 Hence, it's similar as:
 
-```Java
+```java
 public class MountainBicycle extends Bicycle{
   int seatHeight;
 
@@ -108,7 +108,7 @@ public class MountainBicycle extends Bicycle{
 
 Also, you can choose what constructor you want to call while writing your constructor, like:
 
-```Java
+```java
 public class MountainBicycle extends Bicycle{
   ...
 
@@ -123,7 +123,7 @@ public class MountainBicycle extends Bicycle{
 --------
 Now, let's try to instantiate the object of subclass and see how we can operate.
 
-```Java
+```java
 public class MountainBicycle extends Bicycle{
   ...
   public static void main(String[] args) {
@@ -160,7 +160,7 @@ Seat height: 10
 
 **Test Yourself**
 
-```Java
+```java
 public class SuperClass {
   public void a() {
     System.out.println("A in Superclass");
@@ -191,7 +191,7 @@ B in SuperClass
 C in SuperClass
 ```
 
-```Java
+```java
 public class SubClass extends SuperClass{
   @Override
   public void a() {
@@ -232,7 +232,7 @@ You can access the fields and methods of superclass directly. However, sometimes
   
   For example, if you want to override **getPrice()** method of class *Bicycle* in the class *MountainBicycle*.
 
-  ```Java
+  ```java
   public class MountainBicycle extends Bicycle{
     ...
 
@@ -269,7 +269,7 @@ You can access the fields and methods of superclass directly. However, sometimes
 
   We can directly change any fields of superclass in the subclass:
 
-  ```Java
+  ```java
   public class MountainBicycle extends Bicycle{
     ...
     public void changePrice() {
@@ -304,7 +304,7 @@ You can access the fields and methods of superclass directly. However, sometimes
   
   Instead, the completed version of class *Bicycle* should be:
 
-  ```Java
+  ```java
   public class Bicycle {
     //Why is there no modifier "private"? Here is the reason!.
     protected int price;
@@ -336,7 +336,7 @@ You can access the fields and methods of superclass directly. However, sometimes
   + Modifier "Default" in the table represents there is no modifier in front of attributes
   + The term "package" of Java is **important**. In Lab1 classes we wrote, there is a declaration of package above the declaration of class. In Java, the package name is as same as the name of your directory you store the **.java** file. By default, in our project, we will have directory sturcure like **src/main/java/com/team5449**. If you write a class named FlywheelsPID in directory **com/team5449/subsystems/flywheel**, the package name should be like following. 
 
-  ```Java
+  ```java
   package lab1;
   public class ScoreBoard {
     ...
@@ -357,7 +357,7 @@ You can access the fields and methods of superclass directly. However, sometimes
 ### Introduction to Interface
 In class, we not only declare our methods (Define the return value type, name, and arguments of a method), but also provide the implementation of methods (The code block following the declaration)
 
-```Java
+```java
 public int add(int a, int b) //Declaration
 {                            //Implementation
   return a + b;              //Implementation
@@ -366,7 +366,7 @@ public int add(int a, int b) //Declaration
 
 If I only write the declaration of a method without implementation, we call this method **Abstract Method**.
 
-```Java
+```java
 public int add(int a, int b); //Abstract Method
 ```
 
@@ -374,7 +374,7 @@ With the knowledge of abstract method, it's time to introduce interface.
 
 Suppose I provide you with a series of helper funcitons, like POW, a function that calculates a^b.
 
-```Java
+```java
 //return the value of a^b
 int POW(int a, int b);
 ```
@@ -392,7 +392,7 @@ An interface is a completely "abstract class" that is used to group related abst
 
 Take the example above, we would have a interface *Bike*, containing different abstract methods
 
-```Java
+```java
 public interface Bicycle {
   void blowWhistle(String whistle);
   int getPrice();
@@ -402,7 +402,7 @@ public interface Bicycle {
 
 How can we add implementations to these abstract methods? We need to create a new class and use keyword **implements** to implement these methods.
 
-```Java
+```java
 public class MountainBicycle implements Bicycle {
   
 }
@@ -415,7 +415,7 @@ The type MountainBicycle must implement the inherited abstract method Bicycle.ge
 
 You can implement these three methods as you want as long as they have same declarations as those in the interface. And you can define constructors, methods, and fields as normal class.
 
-```Java
+```java
 public class MountainBicycle implements Bicycle {
   private int price;
   private int seatHeight;
@@ -449,7 +449,7 @@ public class MountainBicycle implements Bicycle {
 
 OR I want to implement a class called *RacingBike*
 
-```Java
+```java
 public class RacingBicycle implements Bicycle {
   private int price;
   private int maxSpeed;
@@ -483,7 +483,7 @@ public class RacingBicycle implements Bicycle {
 
 In a new class called BicycleTest.java, we can test it.
 
-```Java
+```java
 public class BicycleTest {
   public static void main(String[] args) {
     Bicycle r1 = new RacingBicycle(200, 900);
@@ -506,7 +506,7 @@ We can also utilize the property above while passing the interface as a paramete
 
 Now, I have a factory called *BikeFactory*, which will be a class. It will definitely use the methods such as **getPrice()**, **getType()**, and **blowWhistle(String whistle)**
 
-```Java
+```java
 public class BikeFactory {
   private ArrayList<Bicycle> bikes = new ArrayList<>();
 
@@ -566,7 +566,7 @@ Since these two classes are the implementations of interface ***Bicycle***, we c
 
 Suppose we have a interface that only has one abstract method
 
-```Java
+```java
 public interface Message {
   void send();
 }
@@ -576,7 +576,7 @@ I want you to output "This is a SMS messgage" while calling the function send(),
 
 We would have a new class implementing interface *Message*, and then override the method send()
 
-```Java
+```java
 public class SMSMessage {
   @Override
   public void send() {
@@ -587,7 +587,7 @@ public class SMSMessage {
 
 Let's test this way:
 
-```Java
+```java
 public class MessageTest {
   public static void main(String[] args) {
     Message m = new SMSMessage();
@@ -606,7 +606,7 @@ However, this is too complicated for us, since we need to write a new class ever
 
 Now, let's introduce lambda, which enables us to implement the abstract method without relying on the class.
 
-```Java
+```java
 public class MessageTest {
   public static void main(String[] args) {
     Message m = () -> {System.out.println("This is a SMS messgage");};
@@ -625,7 +625,7 @@ This is a SMS messgage
 
 Let's recall the format of function
 
-```Java
+```java
 modifier returnValType methodName(args...) {
   //Implementation of the method
 }
@@ -637,7 +637,7 @@ Hence, we put arguments in (), and the implementation of the method is written i
 
 Let's try another example
 
-```Java
+```java
 public interface Addition {
   int add(int a, int b);
 }
@@ -645,7 +645,7 @@ public interface Addition {
 
 Easy peasy, we can implement it directly,
 
-```Java
+```java
 public class MathTest {
   public static void main(String[] args) {
     Addition addition1 = (a, b) -> {return a + b;};
@@ -667,7 +667,7 @@ Usually, we will use Supplier and Consumer interface to pass the values. Those a
 
 When we want to implement TankDrive, we can define it as following:
 
-```Java
+```java
 public class TankDrive extends SubsystemBase {
   private final DoubleSupplier forwardSupplier;
   private final DoubleSupplier rotateSupplier;
@@ -700,7 +700,7 @@ public class TankDrive extends SubsystemBase {
 
 As you can see, we pass the two suppliers while constructing the object. And the lambda expression is written in the constructor to implement the **getAsDouble()** method of interface *DoubleSupplier*.
 
-```Java
+```java
 public class Robot extends LoggedRobot {
   private TankDrive tankDrive;
   private final XboxController driverController;

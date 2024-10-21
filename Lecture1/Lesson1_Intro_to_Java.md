@@ -5,7 +5,7 @@
 • [Oracle](https://en.wikipedia.org/wiki/Oracle_Corporation) offers its own [HotSpot](https://en.wikipedia.org/wiki/HotSpot_(virtual_machine)) Java Virtual Machine, however the official [reference implementation](https://en.wikipedia.org/wiki/Reference_implementation) is the [OpenJDK](https://en.wikipedia.org/wiki/OpenJDK) JVM which is free open-source software and used by most developers and is the default JVM for almost all Linux distributions.
 ## Hello World
 
-```Java
+```java
 public class HelloWorld {
   public static void main(String[] args) {
     System.out.println("Hello World");
@@ -26,7 +26,7 @@ In our life, we use decimal numbers, but in computers, we use binary numbers
 
 All integer numbers in Java are represented as **int**.  **Have a try!**
 
-```Java
+```java
 public class HelloWorld {
   public static void main(String[] args) {
     int a = 3;  //Decimal
@@ -47,7 +47,7 @@ In real life, we all know the set of natural number is infinite, but it's not in
 
 Let's play with this overflow !
 
-```Java
+```java
 public class HelloWorld {
   public static void main(String[] args) {
 		System.out.println(Integer.MAX_VALUE);
@@ -61,7 +61,7 @@ public class HelloWorld {
 Not enough, this is very dangerous, we need to be careful about that.
 You can't do these operations below!
 
-```Java
+```java
 public class HelloWorld {
   public static void main(String[] args) {
 		System.out.println(3 / 0);
@@ -72,7 +72,7 @@ public class HelloWorld {
 
 double 浮点数 小数
 
-```Java
+```java
 public class HelloWorld {
   public static void main(String[] args) {
 		double a = 0.3;
@@ -89,7 +89,7 @@ boolean 布尔值 two states, 1 is true, 0 is false
 
 Three operations, and && ; or || ; not !
 
-```Java
+```java
 public class HelloWorld {
   public static void main(String[] args) {
 		boolean a = true;
@@ -116,7 +116,7 @@ String 字符串
 
 Notice! When we declare the variable in String type, S is capital unlike double, int or boolean. Why? We will explain it further in later lectures.
 
-```Java
+```java
 public class HelloWorld {
   public static void main(String[] args) {
 		String a = "Hello, world";
@@ -133,7 +133,7 @@ if(boolean) {
 }
 ```
 
-```Java
+```java
 public class HelloWorld {
   public static void main(String[] args) {
 		int x = 30; 
@@ -147,7 +147,7 @@ public class HelloWorld {
 }
 ```
 
-```Java
+```java
 public class HelloWorld {
   public static void main(String[] args) {
 		int x = 30; 
@@ -164,7 +164,7 @@ public class HelloWorld {
 }
 ```
 
-```Java
+```java
 public class HelloWorld {
   public static void main(String[] args) {
 		boolean a = ...;
@@ -178,7 +178,7 @@ public class HelloWorld {
 }
 ```
 
-```Java
+```java
 public class HelloWorld {
   public static void main(String[] args) {
 		switch(expression) { 
@@ -197,7 +197,7 @@ public class HelloWorld {
 
 ## Loop
 
-```Java
+```java
 public class HelloWorld {
   public static void main(String[] args) {
 		while(boolean loop guard) {
@@ -238,7 +238,7 @@ public class HelloWorld {
 Array is a collection of a specific type of elements!
 You should notice, it could only contain one type of elements unlike list in Python.
 
-```Java
+```java
 public class HelloWorld {
   public static void main(String[] args) {
 		dataType[] nameOfArr = new dataType[arrSize];
