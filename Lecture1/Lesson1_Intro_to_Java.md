@@ -19,7 +19,7 @@ Function/Method *main* is the entrance of the program, now you should type all t
 [Integer: 整数](https://www.cs.cmu.edu/~15122/handouts/slides/review/02-ints.pdf)
 In our life, we use decimal numbers, but in computers, we use binary numbers
 
-![Photo1](/Lecture1/images/Pasted_image_20240911152120.png)
+![Photo1](images/Pasted_image_20240911152120.png)
 ![Photo2](/Lecture1/images/Pasted_image_20240911152212.png)
 ![Photo3](/Lecture1/images/Pasted_image_20240911152858.png)
 
