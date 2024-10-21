@@ -37,15 +37,15 @@ Final Project 并不是课下作业(虽然你可以课下完成)，而是在Lab�
 
 ## 3 相关资源
 
-1.[Java基础](https://www.runoob.com/java/java-tutorial.html) 需要具有一定的编程基础才能自主阅读
-2.[WPILib官方文档](https://docs.wpilib.org/en/stable/index.html) 官方API及其配套软件讲解，必读资料
-3.[CTRE Phoenix6文档](https://v6.docs.ctr-electronics.com/en/stable/) Kraken及Falcon软件API供应商，必读资料
-4.[REV ION文档](https://docs.revrobotics.com/docs/rev-ion)  NEO电机及部分传感器API，非必读
-5.[Path Planner文档](https://pathplanner.dev/home.html) 最强自动API，必读资料
-6.[Choreo文档](https://sleipnirgroup.github.io/Choreo/) 自动路径画图及其API
-6.[Limelight文档](https://docs.limelightvision.io/docs/docs-limelight/getting-started/summary) 物体识别及Apriltag 必读资料
-7.[Photon Vision文档](https://docs.photonvision.org/en/latest/) Limelight平替
-8.[Advantage Kit文档](https://github.com/Mechanical-Advantage/AdvantageKit?tab=readme-ov-file) Replay及Simulator，FRC革命性API及软件，必读资料
+1. [Java基础](https://www.runoob.com/java/java-tutorial.html) 需要具有一定的编程基础才能自主阅读
+2. [WPILib官方文档](https://docs.wpilib.org/en/stable/index.html) 官方API及其配套软件讲解，必读资料
+3. [CTRE Phoenix6文档](https://v6.docs.ctr-electronics.com/en/stable/) Kraken及Falcon软件API供应商，必读资料
+4. [REV ION文档](https://docs.revrobotics.com/docs/rev-ion)  NEO电机及部分传感器API，非必读
+5. [Path Planner文档](https://pathplanner.dev/home.html) 最强自动API，必读资料
+6. [Choreo文档](https://sleipnirgroup.github.io/Choreo/) 自动路径画图及其API
+6. [Limelight文档](https://docs.limelightvision.io/docs/docs-limelight/getting-started/summary) 物体识别及Apriltag 必读资料
+7. [Photon Vision文档](https://docs.photonvision.org/en/latest/) Limelight平替
+8. [Advantage Kit文档](https://github.com/Mechanical-Advantage/AdvantageKit?tab=readme-ov-file) Replay及Simulator，FRC革命性API及软件，必读资料
 
 ## Table of Contents
 1. [Java Basics](Lecture1/Lesson1_Intro_to_Java.md)
