@@ -4,7 +4,7 @@
 
 **Notice:** *Italicized* word is class & **Bold** word is method
 
-![meme](/Lecture3/images/meme.png)
+![meme](images/meme.png)
 
 Write down your comments and update your documentation in time. Otherwise....
 
@@ -65,7 +65,7 @@ public class MountainBicycle extends Bicycle{
 ```
 **Do You Remember:** There are two memory space for computers, **Local Memory** and **Allocated Memory**. Let's see how the computer's memory changes when we instantiate a class that inherits another class.
 
-![CopyInfo](/Lecture3/images/Inhe1.png)
+![CopyInfo](images/Inhe1.png)
 
 As you can see, when we instantiate a class that inherits another class. It will first copy all methods and atrributes/fields of the superclass, which you can consider this copy as **an object of the superclass embedded in the object of the subclass**. Then the object of subclass is instantiated. With these information, we can speculate two things:
 
@@ -298,7 +298,7 @@ You can access the fields and methods of superclass directly. However, sometimes
 
   Actually, there are multiple modifiers in Java that enable us to have different accessibility of methods/fields. 
 
-  ![modifier](/Lecture3/images/modifier.png)
+  ![modifier](images/modifier.png)
 
   That's why we didn't add modifier "private" in front of attributes, since it will prevent us from accessing fields of superclass in the subclass. 
   
