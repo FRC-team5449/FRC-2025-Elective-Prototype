@@ -721,7 +721,7 @@ The benefit of using *DoubleSupplier* is that we could periodically call **drive
 There are more usage of lambda expressions in FRC, and you will find you can materialize your ideas with shorter lines of codes by using functional programming!
 
 ## More
-The basics of Java ends here, but there is a lot you need to learn by yourself!
+The introduction to basics of Java ends here, but there is a lot you need to learn by yourself!
 
 Click each link and scrutinize resources provided!
 
