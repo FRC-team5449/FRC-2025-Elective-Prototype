@@ -1,6 +1,6 @@
 # FRC Elective Programming Course Syllabus
 
-Instructor: S3C5 Tom Tan
+Instructor: **S3C5 Xiao Tan**
 
 Time: Thursday, 13:40 - 15:50 (RDFZ ICC Elective Course)
 
@@ -17,12 +17,15 @@ The FRC training course for the programming team will teach the basics of FRC pr
 We hope you will gain a lot from this course, but it will require you to put in a certain amount of effort. If you want to excel in this course and shine in the FIRST robotics competitions, you need to follow these principles:
 
 1. Talk is cheap, show me the code
+
 	Computer science is a science, but it is also an engineering discipline. We hope you won't always stay in theoretical and hypothetical environments. Instead, you need to focus on the programming as much as possible by yourself, practically implementing the ideas in your mind through code, and testing these potentially buggy programs until they run successfully on the robot. Only then can you declare success! Therefore, in this course, we will also arrange labs (according to the grading system) to help everyone truly master programming.
 
-2. Code alone, but work together
+3. Code alone, but work together
+
 	FRC has never been a solo endeavor; it relies on cooperation and communication among everyone involved. If you look at the GitHub repositories of all strong teams, you'll find that, without exception, each team's code is completed through collaboration. Therefore, in this course, we expect you to work together with other team members, each fulfilling their role, following the rules, and cooperating to complete our various projects—don't be a free rider! Additionally, when coding, try to focus on working independently; don’t get carried away by the enthusiastic discussions and praise from others. The logic and efficiency of a programmer will be your key to success.
 
-3. Problems and obstacles? You're on the track to success!
+5. Problems and obstacles? You're on the track to success!
+
 	FRC programming is challenging for most high school students, and trust me, it's the same for both strong and weak teams. In a programming team of 20, only 2-3 people may ultimately contribute to the competition robot's programming. However, we will do our best to help you become an independent programmer by enhancing the course and providing after-class support to help you overcome difficulties. If you sometimes don’t understand the class content, don’t worry; it’s a normal occurrence. Please feel free to consult us in a timely manner. At the same time, you will need more practice and reflection to overcome obstacles. When things aren’t going smoothly, believe that you are on the right path!
 
 ## 2 Grading System
