@@ -1,5 +1,7 @@
 # Lesson4 Electronics in FRC and WPILib
 
+Now, let's introduce **Electronics** in FRC, 
+
 ## Electronics
 
 ### Motors and Controllers
