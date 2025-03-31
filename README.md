@@ -35,9 +35,9 @@ We hope you will gain a lot from this course, but it will require you to put in 
 To encourage practice, the FRC training course for the programming team divides programming knowledge into four levels. After completing a certain number of instructional hours, you will need to complete the Final Project for that level and receive approval from the programming teaching team to advance. At the end of the semester, the total score will be calculated according to the table corresponding to your current level.
 
 + Level 1：Java Basics  	80  B
-+ Level 2：Open-Loop Control    85 分 A
-+ Level 3：Closed-Loop Control  93 分 A+
-+ Level 4：Computer Vision      100分 A+
++ Level 2：Open-Loop Control    85 points A
++ Level 3：Closed-Loop Control  93 points A+
++ Level 4：Computer Vision      100 points A+
 
 Every Thursday, the training course is structured as Lecture + Lab, which may consist of 1 Lecture + 2 Labs or 2 Lectures + 1 Lab. Lectures focus on explaining key concepts and analyzing past code. Labs will announce project code to be completed through code completion or mini-games. Attendance in Lectures and Labs does not count towards the final grade, but attendance will be recorded for each class. We encourage everyone to participate fully. If you ultimately do not complete the Final Project for advancement, you can use your attendance and completed Lab counts to offset and earn GPA points. The attendance required to offset a specific Final Project is not clearly defined and will be considered in conjunction with classroom engagement and performance, so completing the Final Project remains the best option for achieving a high score.
 ### 2.2 Final Project
